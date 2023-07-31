@@ -187,8 +187,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/ndarray-base-output-policy-str2enum.svg
 [npm-url]: https://npmjs.org/package/@stdlib/ndarray-base-output-policy-str2enum
 
-[test-image]: https://github.com/stdlib-js/ndarray-base-output-policy-str2enum/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/ndarray-base-output-policy-str2enum/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/ndarray-base-output-policy-str2enum/actions/workflows/test.yml/badge.svg?branch=v0.0.1
+[test-url]: https://github.com/stdlib-js/ndarray-base-output-policy-str2enum/actions/workflows/test.yml?query=branch:v0.0.1
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/ndarray-base-output-policy-str2enum/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/ndarray-base-output-policy-str2enum?branch=main

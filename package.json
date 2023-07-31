@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/ndarray-base-output-policy-str2enum",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Return the enumeration constant associated with an output ndarray data type policy string.",
   "license": "Apache-2.0",
   "author": {
