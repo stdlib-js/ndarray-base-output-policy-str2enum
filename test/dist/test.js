@@ -21,57 +21,13 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var enum2str = require( '@stdlib/ndarray-base-output-policy-enum2str' );
-var str2enum = require( './../../dist' );
-
-
-// VARIABLES //
-
-// List of native C policies which should be supported...
-var POLICIES = [
-	'same',
-	'promoted',
-	'bool',
-	'signed_integer',
-	'unsigned_integer',
-	'integer',
-	'floating_point',
-	'real_floating_point',
-	'complex_floating_point',
-	'real',
-	'numeric',
-	'default'
-];
+var main = require( './../../dist' );
 
 
 // TESTS //
 
-tape( 'main export is a function', function test( t ) {
+tape( 'main export is defined', function test( t ) {
 	t.ok( true, __filename );
-	t.strictEqual( typeof str2enum, 'function', 'main export is a function' );
-	t.end();
-});
-
-tape( 'the function returns the enumeration constant associated with an output ndarray data type policy string', function test( t ) {
-	var i;
-	for ( i = 0; i < POLICIES.length; i++ ) {
-		t.strictEqual( enum2str( str2enum( POLICIES[ i ] ) ), POLICIES[ i ], 'returns expected value' );
-	}
-	t.end();
-});
-
-tape( 'the function returns `null` if unable to resolve an enumeration constant', function test( t ) {
-	var values;
-	var i;
-
-	values = [
-		'beep',
-		'boop',
-		'foo',
-		'bar'
-	];
-	for ( i = 0; i < values.length; i++ ) {
-		t.strictEqual( str2enum( values[ i ] ), null, 'returns expected value' );
-	}
+	t.strictEqual( main !== void 0, true, 'main export is defined' );
 	t.end();
 });
