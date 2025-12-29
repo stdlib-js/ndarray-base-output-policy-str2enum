@@ -37,6 +37,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
+    "@stdlib/assert-is-number": "^0.2.2",
     "@stdlib/ndarray-output-dtype-policies": "^0.2.2"
   },
   "devDependencies": {
